@@ -1,0 +1,45 @@
+/* 全局基础样式 */
+
+* {
+  box-sizing: border-box;
+}
+
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+
+body {
+  font-family:
+    "Microsoft YaHei",
+    "PingFang SC",
+    Arial,
+    sans-serif;
+
+  background: #f6f7fb;
+
+  color: #1f2937;
+}
+
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
